@@ -20,7 +20,7 @@ class DataTypesTableSeeder extends Seeder
                 'model_name'            => 'TCG\\Voyager\\Models\\User',
                 'policy_name'           => 'TCG\\Voyager\\Policies\\UserPolicy',
                 'controller'            => 'TCG\\Voyager\\Http\\Controllers\\VoyagerUserController',
-                'generate_permissions'  => 1,
+                'generate_permissions'  => true,
                 'description'           => '',
             ])->save();
         }
@@ -34,7 +34,7 @@ class DataTypesTableSeeder extends Seeder
                 'icon'                  => 'voyager-list',
                 'model_name'            => 'TCG\\Voyager\\Models\\Menu',
                 'controller'            => '',
-                'generate_permissions'  => 1,
+                'generate_permissions'  => true,
                 'description'           => '',
             ])->save();
         }
@@ -48,7 +48,7 @@ class DataTypesTableSeeder extends Seeder
                 'icon'                  => 'voyager-lock',
                 'model_name'            => 'TCG\\Voyager\\Models\\Role',
                 'controller'            => 'TCG\\Voyager\\Http\\Controllers\\VoyagerRoleController',
-                'generate_permissions'  => 1,
+                'generate_permissions'  => true,
                 'description'           => '',
             ])->save();
         }
