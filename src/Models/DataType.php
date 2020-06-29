@@ -74,7 +74,7 @@ class DataType extends Model
 
     public function setGeneratePermissionsAttribute($value)
     {
-        $this->attributes['generate_permissions'] = $value ? 1 : 0;
+        $this->attributes['generate_permissions'] = $value ? true : false;
     }
 
     public function setServerSideAttribute($value)

@@ -26,7 +26,7 @@ class PostsTableSeeder extends Seeder
                 'model_name'            => 'TCG\\Voyager\\Models\\Post',
                 'policy_name'           => 'TCG\\Voyager\\Policies\\PostPolicy',
                 'controller'            => '',
-                'generate_permissions'  => 1,
+                'generate_permissions'  => true,
                 'description'           => '',
             ])->save();
         }

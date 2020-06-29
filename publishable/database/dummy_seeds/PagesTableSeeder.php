@@ -27,7 +27,7 @@ class PagesTableSeeder extends Seeder
                 'icon'                  => 'voyager-file-text',
                 'model_name'            => 'TCG\\Voyager\\Models\\Page',
                 'controller'            => '',
-                'generate_permissions'  => 1,
+                'generate_permissions'  => true,
                 'description'           => '',
             ])->save();
         }

@@ -27,7 +27,7 @@ class CategoriesTableSeeder extends Seeder
                 'icon'                  => 'voyager-categories',
                 'model_name'            => 'TCG\\Voyager\\Models\\Category',
                 'controller'            => '',
-                'generate_permissions'  => 1,
+                'generate_permissions'  => true,
                 'description'           => '',
             ])->save();
         }
